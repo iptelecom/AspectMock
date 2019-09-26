@@ -4,7 +4,7 @@ $loader->add('AspectMock', __DIR__ . '/../../src');
 $loader->add('demo', __DIR__ );
 $loader->register();
 
-$kernel = \AspectMock\Kernel::getInstance();
+$kernel = \AspectMock\IpKernel::getInstance();
 $kernel->init([
     'debug' => true,
     'cacheDir' => __DIR__.'/cache',

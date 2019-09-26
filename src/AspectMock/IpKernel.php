@@ -13,7 +13,7 @@ use Symfony\Component\Finder\Finder;
 
 require_once __DIR__ . '/Core/Registry.php';
 
-class Kernel extends AspectKernel
+class IpKernel extends AspectKernel
 {
     public function init(array $options = [])
     {

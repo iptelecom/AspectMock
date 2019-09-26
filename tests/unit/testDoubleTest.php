@@ -133,7 +133,7 @@ class testDoubleTest extends \Codeception\Test\Unit
         if (PHP_MAJOR_VERSION < 7) {
             $this->markTestSkipped('PHP 7 only');
         }
-        \AspectMock\Kernel::getInstance()->loadFile(codecept_data_dir() . 'php7.php');
+        \AspectMock\IpKernel::getInstance()->loadFile(codecept_data_dir() . 'php7.php');
         test::double(TestPhp7Class::class, [
             'stringSth' => true,
             'floatSth' => true,
