@@ -8,8 +8,8 @@
         }
     ],
     "autoload": {
-           "psr-0": {
-               "AspectMock": "src/"
+           "psr-4": {
+               "AspectMock\\": "src/AspectMock"
            }
        },
     "require": {
