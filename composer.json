@@ -8,12 +8,8 @@
         }
     ],
     "autoload": {
-           "psr-4": {
-               "AspectMock\\": "src/AspectMock",
-               "AspectMock\\Core": "src/AspectMock/Core",
-               "AspectMock\\Intercept": "src/AspectMock/Intercept",
-               "AspectMock\\Proxy": "src/AspectMock/Proxy",
-               "AspectMock\\Util": "src/AspectMock/Util"
+           "psr-0": {
+               "AspectMock\\": "src/"
            }
        },
     "require": {
